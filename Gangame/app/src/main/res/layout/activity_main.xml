@@ -11,13 +11,18 @@
     <FrameLayout
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
-    <android.support.design.internal.BottomNavigationView
+    <android.support.design.widget.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:id="@+id/navigationView">
-    </android.support.design.internal.BottomNavigationView>
+        android:layout_height="wrap_content"
+        android:id="@+id/navigationView"
+        app:itemBackground="@color/colorPrimaryDark"
+        app:itemTextColor="@android:color/white"
+        app:itemIconTint="@color/colorAccent"
+        app:menu="@menu/menu_main_navigation">
+    </android.support.design.widget.BottomNavigationView>
 
 
 </LinearLayout>
