@@ -13,8 +13,8 @@ class DealsFragment : BaseFragment(){
         return R.layout.fragment_deal
     }
 
-    //En un fragmento con vistas lo que se necesita es crear la vista por eso creamos en onCreateView
-    //EL inflater nunca es null por lo que se puede quitar el ? del LayoutInflater
+    //En un fragmento con vistas lo que se necesita es crear la vista por eso creamos en el onCreateView
+    //El inflater nunca es null por lo que se puede quitar el ? del LayoutInflater
     //override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         //Creamos la vista --> Se pasa el layout del fragment (R.layout.fragment_deal), un contenedor que viene en el método
